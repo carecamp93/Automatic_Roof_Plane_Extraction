@@ -44,7 +44,7 @@ This repo provides the scripts, data, pre-trained checkpoints of HEAT on our stu
 
 
 ---
-## **Study area**
+## **Study areas**
 
 We have evaluated our framework in three different study areas: Stadsveld – 't Zwering, Enschede, Oude Mark, Enschede, both areas located in The Netherlands, and the neighborhood of Lozenets, Sofia, in Bulgaria. 
 
