@@ -1,4 +1,4 @@
-# **Automatic extraction of Building Roofs Planes in urban environments for 3D modelling using Remote Sensing data**
+# **Automatic Building Roof Plane extraction in urban environments for 3D modelling using Remote Sensing data**
 
  This repository contains all the  scripts used in the development of the paper: "Automatic Building Roofs Planes extraction in urban environ-ments for 3D modelling using Remote Sensing data" ( Remote Sensing MDPI, 2023), and the MSc. thesis: "AUTOMATIC BUILDING ROOF PLANE STRUCTURE EXTRACTION FROM REMOTE SENSING DATA FOR LOD2 3D CITY MODELLING" (ITC-UT, 2023).
 
