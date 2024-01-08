@@ -35,7 +35,7 @@ Two different stages are presented:
 
 2) Stage 2. 3D Modelling
 
-![INTRO2](./5.-PLOTS/Intro2.jpg)
+![INTRO2](./5.-PLOTS/Intro2.jpeg)
 
 As shown by the above figures, the overall framework consistes on two stages. Please refer to the paper or the Msc. Thesis for more details.
 
