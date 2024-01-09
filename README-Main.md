@@ -1,27 +1,28 @@
-# **Automatic Building Roof Plane extraction in Urban Environments for 3D Modelling Using Remote Sensing data**
+# **Automatic Building Roof Plane Extraction in Urban Environments for 3D Modelling Using Remote Sensing data**
 
  This repository contains all the  scripts used in the development of the paper: "Automatic Building Roofs Planes Extraction in Urban Environments for 3D Modelling using Remote Sensing Data" (Remote Sensing MDPI, 2024), and the MSc. thesis: [AUTOMATIC BUILDING ROOF PLANE STRUCTURE EXTRACTION FROM REMOTE SENSING DATA FOR LOD2 3D CITY MODELLING](http://essay.utwente.nl/96138/) (ITC-UT, 2023).
 
 Please use the following bib entry to cite the paper if you are using resources from this repo.
 
-@inproceedings{chen2022heat,
-        title={Automatic Building Roofs Planes extraction in urban environ-ments for 3D modelling using Remote Sensing data},
-        author={Campoverde, Koeva, Persello, Maslov, Jiao, Petro-va-Antonova},
-        booktitle={MDPI Remote Sensing},
-        year={2023}
+```
+@article{Campoverde2023AutomaticRoofExtraction,
+     title={Automatic Building Roofs Planes extraction in urban environ-ments for 3D modelling using Remote Sensing data},
+     author={CCampoverde, Koeva, Persello, Maslov, Jiao, Petrova Antonova},
+     booktitle={MDPI Remote Sensing},
+     year={2024}
 } 
+```
 
+The presented work were developed on the top of the work developed by Chen, 2022 on the paper: HEAT: Holistic Edge Attention Transformer for Structured Reconstruction.
 
- The presented work were developed on the top of the work developed by Chen, 2022 on the paper: HEAT: Holistic Edge Attention Transformer for Structured Reconstruction.
-
- @inproceedings{chen2022heat,
+```
+@inproceedings{chen2022heat,
      title={HEAT: Holistic Edge Attention Transformer for Structured Reconstruction},
      author={Chen, Jiacheng and Qian, Yiming and Furukawa, Yasutaka},
      booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
      year={2022}
 } 
-
----
+```
 ## **Introduction**
 
 This paper presents a framework for Building inner roof planes reconstruction in aerial images and the application of the obtained outputs on LOD2 3D modelling.
