@@ -30,15 +30,11 @@ This paper presents a framework for Building inner roof planes reconstruction in
 Two different stages are presented:
 
 1) Stage 1. Roof plane delineation/extraction
-
-
-![INTRO]   
-
 2) Stage 2. 3D Modelling
 
-![INTRO2](./5.-PLOTS/Intro2.jpeg)
+![INTRO1](./5.-PLOTS/Intro.svg)
 
-As shown by the above figures, the overall framework consistes on two stages. Please refer to the paper or the Msc. Thesis for more details.
+As shown by the above figure, the overall framework consistes on two stages. Please refer to the paper or the Msc. Thesis for more details.
 
 This repo provides the scripts, data, pre-trained checkpoints of HEAT on our study areas, and the 3D modelling metadata for de developed LOD2 3D model.
 
