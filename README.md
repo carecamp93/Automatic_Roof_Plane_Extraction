@@ -63,12 +63,12 @@ Please download the data for the two stages from the links below.
 1) Stage 1. Roof plane delineation/extraction
 Extract the data into the 1.- DATA PREPARATION/1.-INPUT
 
-Data: https://drive.google.com/drive/folders/12AmomRCLc28QwAtFo-9YXQpJq4Q_FTAk?usp=drive_link
+Data:[Link](https://drive.google.com/drive/folders/12AmomRCLc28QwAtFo-9YXQpJq4Q_FTAk?usp=drive_link)
 
 
 2) Stage 2. 3D Modelling
 
-Data: https://drive.google.com/drive/folders/1C0qwlgx6gXsfIcFQd_x9gPT2yih6e-jf?usp=sharing
+Data:[Link](https://drive.google.com/drive/folders/1C0qwlgx6gXsfIcFQd_x9gPT2yih6e-jf?usp=sharing)
 
 ## **Checkpoints**
 Please download the checkpoints for the different trained models from the link bellow
