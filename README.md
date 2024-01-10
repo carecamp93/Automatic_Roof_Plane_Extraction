@@ -93,6 +93,9 @@ This section is available in the presented repository and is conducted in four s
 
 1) Data Preparation
 
+The data preparation process involves various stages, utilizing both GIS and the developed script contained in the '1.-DATA PREPARATION' folder. In this phase, we will develop all the input datasets to be used with the HEAT methodology for the next step of the framework. The diagram below illustrates how the data preparation script works, identifying the required inputs and the generated outputs.
+
+![DatasetPreparation](./5.-PLOTS/DatasetPreparation.svg)
 
 
 1) Training / Inference
