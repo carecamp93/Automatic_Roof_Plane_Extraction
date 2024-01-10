@@ -94,6 +94,16 @@ This section is available in the presented repository and is conducted in four s
 1) Data Preparation
 
 
+
+1) Training / Inference
+
+
+
+1) Post-Processing/Vectorization
+
+1) Vetorization Evaluation
+
+
 ## **References**
 
 [1]. Chen, J.; Qian, Y.; Furukawa, Y. HEAT: Holistic Edge Attention Transformer for Structured Reconstruction. Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit. 2022, 2022-June, 3856–3865, doi:10.1109/CVPR52688.2022.00384.
