@@ -51,31 +51,10 @@ As shown by the above figure, the overall framework consistes on two stages. Ple
 This repo provides the scripts, data, pre-trained checkpoints of HEAT on our study areas, and the 3D modelling metadata for de developed LOD2 3D model.
 
 ---
-## **Data Structure**
+## **Data structure**
 The data structure of the presented repository and the entire paper is illustrated in the picture shown below.
 
 ![DATASTRUCTURE](./5.-PLOTS/Datastructure.svg)
-
----
-## **Study areas**
-
-We have evaluated our framework in three different study areas: Stadsveld – 't Zwering, Enschede, Oude Mark, Enschede, both areas located in The Netherlands, and the neighborhood of Lozenets, Sofia, in Bulgaria. 
-
-- The study area of Stadsveld – 't Zwering, located in the southern urban area of En-schede, The Netherlands, covers an area of around 153 hectares. The dataset contains 1972, 123, and 370 building samples for training validation and testing, respectively.
-
-![AREA](./5.-PLOTS/studyarea1.jpg)
-
-- The study area of Oude Markt, located in the central urban area of Enschede, The Netherlands, covers an area of around 6 hectares. The dataset contains 119 building samples for testing the whole workflow. 
-
-![AREA2](./5.-PLOTS/studyarea2.jpg)
-
-- The study area of Lozenets, located in the urban area of Sofia, Bulgaria, covers an area of around 812 hectares. The dataset contains 1440, 90, and 270 building samples for training, validation, and testing, respectively.
-
-![AREA2](./5.-PLOTS/studyarea3.jpg)
-
-Three study areas were defined with three main stages for its use have been defined, as shown belove.
-
-![SPLIT](./5.-PLOTS/DatasetSplit.jpg)
 
 ---
 ## **Download Dataset**
@@ -99,6 +78,9 @@ Extract the checpoints into the 2.- TRAINING-TESTING/checkpoints
 Checkpoints: https://drive.google.com/drive/folders/1DMv5N5BE8Zcp8gLNU24Ylr9jZSnLxp9V?usp=sharing
 
 
+Three study areas were defined with three main stages for its use have been defined, as shown belove.
+
+![SPLIT](./5.-PLOTS/DatasetSplit.jpg)
 
 
 
