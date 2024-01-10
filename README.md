@@ -84,7 +84,7 @@ Three study areas were defined with three main stages for its use have been defi
 
 
 
-#### Each script has its own purpose and requirements and should be run in this sequence of steps to reproduce the results in the MSc thesis:
+#### Each script has its own purpose and requirements and should be run in the specified sequence of steps to reproduce the results presented in the paper and the MSc thesis on which the research is based.
 
 ## **Environment**
 
