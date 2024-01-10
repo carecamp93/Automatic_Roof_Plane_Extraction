@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES={gpu_ids} python train.py  --exp_dataset data/__ --epochs 800 --lr_drop 600  --batch_size 16  --output_dir ./checkpoints/_____  --image_size 256  --max_corner_num 150  --lambda_corner 0.05  --run_validation

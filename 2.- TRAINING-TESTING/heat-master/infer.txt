@@ -1,0 +1,1 @@
+python infer.py --checkpoint_path ./________________  --dataset ________--image_size 256 --viz_base ./____________ --save_base ./________

@@ -51,6 +51,12 @@ As shown by the above figure, the overall framework consistes on two stages. Ple
 This repo provides the scripts, data, pre-trained checkpoints of HEAT on our study areas, and the 3D modelling metadata for de developed LOD2 3D model.
 
 ---
+## **Data Structure**
+The data structure of the presented repository and the entire paper is illustrated in the picture shown below.
+
+![DATASTRUCTURE](./5.-PLOTS/Datastructure.svg)
+
+---
 ## **Study areas**
 
 We have evaluated our framework in three different study areas: Stadsveld – 't Zwering, Enschede, Oude Mark, Enschede, both areas located in The Netherlands, and the neighborhood of Lozenets, Sofia, in Bulgaria. 
@@ -72,7 +78,7 @@ Three study areas were defined with three main stages for its use have been defi
 ![SPLIT](./5.-PLOTS/DatasetSplit.jpg)
 
 ---
-## **Data**
+## **Download Dataset**
 Please download the data for the two stages from the links below. 
 
 1) Stage 1. Roof plane delineation/extraction
