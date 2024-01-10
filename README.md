@@ -48,7 +48,7 @@ Two different stages are presented:
 
 As shown by the above figure, the overall framework consistes on two stages. Please refer to the paper or the Msc. Thesis for more details.
 
-This repo provides the scripts, data, pre-trained checkpoints of HEAT on our study areas, and the 3D modelling metadata for de developed LOD2 3D model.
+This repository provides the scripts, data, pre-trained checkpoints of HEAT on our study areas, and the 3D modeling metadata for the developed 3D model at LOD2.
 
 ---
 ## **Data structure**
