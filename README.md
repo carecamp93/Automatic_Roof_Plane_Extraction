@@ -22,9 +22,6 @@ If you wish to delve deeper into the details, you can consult the master's thesi
      school={University of Twente}
 } 
 ```
-
-
-
 The presented work were developed on the top of the work developed by Chen, 2022 on the paper: HEAT: Holistic Edge Attention Transformer for Structured Reconstruction.
 
 ```
@@ -88,4 +85,21 @@ Three study areas were defined with three main stages for its use have been defi
 
 ## **Environment**
 
-#### This repo was developed and tested with Jupiter Notebook using Python3.8
+This repo was developed and tested with Jupiter Notebook using Python3.8
+
+## **Building  Roof plane delineation/extraction**
+
+This section is available in the presented repository and is conducted in four steps.
+
+1) Data Preparation
+
+
+## **References**
+
+[1]. Chen, J.; Qian, Y.; Furukawa, Y. HEAT: Holistic Edge Attention Transformer for Structured Reconstruction. Proc. IEEE Comput. Soc. Conf. Comput. Vis. Pattern Recognit. 2022, 2022-June, 3856–3865, doi:10.1109/CVPR52688.2022.00384.
+
+[2]. Zhao, W.; Persello, C.; Stein, A. Building Outline Delineation: From Aerial Images to Polygons with an Improved End-to-End Learning Framework. ISPRS J. Photogramm. Remote Sens. 2021, 175, 119–131, doi:10.1016/j.isprsjprs.2021.02.014.
+
+[3]. Zhao, W.; Persello, C.; Stein, A. Extracting Planar Roof Structures from Very High Resolution Images Using Graph Neural Networks. ISPRS J. Photogramm. Remote Sens. 2022, 187, 34–45, doi:10.1016/j.isprsjprs.2022.02.022.
+
+[4]. PDOK (the Public Services On the Map). Available online: https://www.pdok.nl/ (accessed on 5 December 2022).
