@@ -5,13 +5,25 @@
 Please use the following bib entry to cite the paper if you are using resources from this repo.
 
 ```
-@article{Campoverde2023AutomaticRoofExtraction,
+@article{Campoverde2024AutomaticRoofExtraction,
      title={Automatic Building Roofs Planes extraction in urban environ-ments for 3D modelling using Remote Sensing data},
      author={CCampoverde, Koeva, Persello, Maslov, Jiao, Petrova Antonova},
      booktitle={MDPI Remote Sensing},
      year={2024}
 } 
 ```
+
+If you wish to delve deeper into the details, you can consult the master's thesis, which delved extensively into this research. Please use the following bib entry to cite the MSc. thesis
+```
+@mastersthesis{campoverde2023automatic,
+     title={Automatic building roof plane structure extraction from remote sensing data for lod2 3D city modelling},
+     author={Campoverde, Carlos},
+     year={2023},
+     school={University of Twente}
+} 
+```
+
+
 
 The presented work were developed on the top of the work developed by Chen, 2022 on the paper: HEAT: Holistic Edge Attention Transformer for Structured Reconstruction.
 
@@ -37,8 +49,6 @@ Two different stages are presented:
 As shown by the above figure, the overall framework consistes on two stages. Please refer to the paper or the Msc. Thesis for more details.
 
 This repo provides the scripts, data, pre-trained checkpoints of HEAT on our study areas, and the 3D modelling metadata for de developed LOD2 3D model.
-
-
 
 ---
 ## **Study areas**
