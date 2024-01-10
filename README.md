@@ -75,7 +75,7 @@ Please download the checkpoints for the different trained models from the link b
 Extract the checpoints into the 2.- TRAINING-TESTING/checkpoints
 
 
-Checkpoints: https://drive.google.com/drive/folders/1DMv5N5BE8Zcp8gLNU24Ylr9jZSnLxp9V?usp=sharing
+Checkpoints:[Link](https://drive.google.com/drive/folders/1DMv5N5BE8Zcp8gLNU24Ylr9jZSnLxp9V?usp=sharing)
 
 
 Three study areas were defined with three main stages for its use have been defined, as shown belove.
