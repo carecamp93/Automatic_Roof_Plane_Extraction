@@ -102,4 +102,4 @@ This section is available in the presented repository and is conducted in four s
 
 [3]. Zhao, W.; Persello, C.; Stein, A. Extracting Planar Roof Structures from Very High Resolution Images Using Graph Neural Networks. ISPRS J. Photogramm. Remote Sens. 2022, 187, 34–45, doi:10.1016/j.isprsjprs.2022.02.022.
 
-[4]. PDOK (the Public Services On the Map). Available online: https://www.pdok.nl/ (accessed on 5 December 2022).
+[4]. PDOK (the Public Services On the Map). Available online: https://www.pdok.nl/.
