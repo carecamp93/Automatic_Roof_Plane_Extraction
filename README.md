@@ -86,6 +86,7 @@ Three study areas were defined with three main stages for its use have been defi
 ## **Environment**
 
 This repo was developed and tested with Jupiter Notebook using Python3.8
+Please make sure to read and install all the requirements needed to use HEAT: Holistic Edge Attention Transformer for Structured Reconstruction.
 
 ## **Building  Roof plane delineation/extraction**
 
@@ -98,13 +99,28 @@ The data preparation process involves various stages, utilizing both GIS and the
 ![DatasetPreparation](./5.-PLOTS/DatasetPreparation.svg)
 
 
-1) Training / Inference
+2) Training / Inference
+
+Training
+![Training](./5.-PLOTS/Training.svg)
+
+Inference
+![Training](./5.-PLOTS/Inference.svg)
 
 
+3) Post-Processing/Vectorization
 
-1) Post-Processing/Vectorization
+![Vectorization](./5.-PLOTS/Vectorization.svg)
 
-1) Vetorization Evaluation
+
+4) Vetorization Evaluation
+![Vectorization](./5.-PLOTS/IoU.svg)
+
+## **3D Modelling**
+
+This section is available in the Google Drive folder accessible through the following [link](https://drive.google.com/drive/folders/1C0qwlgx6gXsfIcFQd_x9gPT2yih6e-jf?usp=sharing).
+
+This stage was performed in ArcGIS Pro, and the developed web map can be found in the following [link](https://arcg.is/1raWvS0)
 
 
 ## **References**
