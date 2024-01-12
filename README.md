@@ -102,18 +102,33 @@ The data preparation process involves various stages, utilizing both GIS and the
 2) Training / Inference
 
 Training
+The training process starts using the HEAT pre-trained model, the model was trained for 800 epochs (0-799) based on the dataset size (1601 building image samples from Paris, Las Vegas, or Atlanta) without a hyper-parameter search. Please refer to the HEAT repository. Ensure you review all environmental requirements and libraries necessary to execute the [HEAT](https://github.com/woodfrog/heat) deep learning method. Follow the data structure diagram to locate all data inputs and dataset requirements.
+
+The training strategy in the current research consisted of using the prior knowledge of the pre-trained model as a starting point. 
+
+The outputs of the training process are the checkpoints, which represent the best model during the training session based on the validation curve.For each training session, you will obtain both the best model and the last model.
+
 ![Training](./5.-PLOTS/Training.svg)
 
 Inference
-![Training](./5.-PLOTS/Inference.svg)
+After obtaining the different trained model, inference process can be performed 
 
+![Inference](./5.-PLOTS/Inference.svg)
+
+The model is applied to the predefined testing datasets to delineate the inner roof planes of the building samples. The outputs of this application are captured in a Python dictionary, as shown in the figure below.
+
+![Inference](./5.-PLOTS/PlanarGraph.JPG)
 
 3) Post-Processing/Vectorization
+In this step, we will convert the planar graph dictionaries obtained from the inferences. Since the delineated buildings' inner roof plane graphs are named with their corresponding input image names, we will use the image file name to map the corresponding polygon bounding box for clipping this image sample from the original aerial image. This information is captured in the spatial reference text file saved in the first step. The figure below shows a diagram of this step.
+The shapefile conversion script utilized the mentioned files to gather all the planar graphs from building samples and the spatial reference files to join them together. The script then generated a singular shapefile in polyline geometry, containing all the reconstructed inner roof planes for the applied study area dataset. The polyline representations of building inner roof planes can be converted into polygon planes using GIS software through conversion operations between geometries.
 
 ![Vectorization](./5.-PLOTS/Vectorization.svg)
 
-
 4) Vetorization Evaluation
+
+In this step, Intersection over Union (IoU) is employed as a vector format evaluation metric for the predicted building inner roof planes (in polygon format). The IoU is calculated by dividing the intersection area by the union area of predicted inner roof planes and ground truth building inner roof planes. This metric assesses the accuracy of the final outputs obtained after extracting and vectorizing all the predicted inner planes of the buildings.
+
 ![Vectorization](./5.-PLOTS/IoU.svg)
 
 ## **3D Modelling**
