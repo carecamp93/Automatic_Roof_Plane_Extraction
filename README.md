@@ -120,6 +120,7 @@ The model is applied to the predefined testing datasets to delineate the inner r
 ![Inference](./5.-PLOTS/PlanarGraph.JPG)
 
 3) Post-Processing/Vectorization
+
 In this step, we will convert the planar graph dictionaries obtained from the inferences. Since the delineated buildings' inner roof plane graphs are named with their corresponding input image names, we will use the image file name to map the corresponding polygon bounding box for clipping this image sample from the original aerial image. This information is captured in the spatial reference text file saved in the first step. The figure below shows a diagram of this step.
 The shapefile conversion script utilized the mentioned files to gather all the planar graphs from building samples and the spatial reference files to join them together. The script then generated a singular shapefile in polyline geometry, containing all the reconstructed inner roof planes for the applied study area dataset. The polyline representations of building inner roof planes can be converted into polygon planes using GIS software through conversion operations between geometries.
 
