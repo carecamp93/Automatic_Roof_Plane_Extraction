@@ -53,7 +53,7 @@ The data structure of both the repository and the entire framework is illustrate
 ![DATASTRUCTURE](./5.-PLOTS/Datastructure.svg)
 
 ---
-## **Download Dataset**
+## **Dataset Download**
 Please download the data for the two stages from the links below. 
 
 1) Stage 1. Roof plane delineation/extraction
@@ -99,6 +99,7 @@ The data preparation process involves various stages, utilizing both GIS and the
 **2) Training / Inference**
 
 Training
+
 The training process begins with the use of the HEAT pre-trained model, trained for 800 epochs (0-799) based on the dataset size (1601 building image samples from Paris, Las Vegas, or Atlanta) without hyper-parameter search. Please refer to the HEAT repository. Ensure you review all environmental requirements and libraries necessary to execute the HEAT deep learning method. Follow the data structure diagram to locate all data inputs and dataset requirements.
 
 The training strategy in the current research involves leveraging the prior knowledge of the pre-trained model as a starting point.
@@ -108,6 +109,7 @@ The training process yields checkpoints representing the best model during the s
 ![Training](./5.-PLOTS/Training.svg)
 
 Inference
+
 After obtaining the different trained models, the inference process can be performed. We have included the trained models (checkpoint) for our study cases in the link provided in the checkpoint section.
 
 ![Inference](./5.-PLOTS/Inference.svg)
