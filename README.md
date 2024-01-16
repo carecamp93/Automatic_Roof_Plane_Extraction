@@ -79,7 +79,7 @@ Three study areas were defined, each with three main stages outlined for their u
 
 
 
-#### Each script has its own purpose and requirements, and they should be run in the specified sequence of steps to reproduce the results presented in both the paper and the MSc thesis on which the research is based.
+**Each script has its own purpose and requirements, and they should be run in the specified sequence of steps to reproduce the results presented in both the paper and the MSc thesis on which the research is based.**
 
 ## **Environment**
 
