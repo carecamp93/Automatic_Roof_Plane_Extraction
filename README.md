@@ -7,7 +7,7 @@ Please use the following bib entry to cite the paper if you are using resources 
 ```
 @article{Campoverde2024AutomaticRoofExtraction,
      title={Automatic Building Roofs Planes extraction in urban environments for 3D modelling using Remote Sensing data},
-     author={CCampoverde, Koeva, Persello, Maslov, Jiao, Petrova Antonova},
+     author={Campoverde, Koeva, Persello, Maslov, Jiao, Petrova Antonova},
      booktitle={MDPI Remote Sensing},
      year={2024}
 } 
